@@ -48,3 +48,49 @@ input[type=text] {
     left: 870px;
     top: 622px;
 }
+
+input[type=button] {
+    width: 180px;
+    height: 43px;
+    background-color: #a9d9d9;
+    border: 0;
+    border-radius: 21.5px;
+
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 20px;
+    color: #fff;
+
+    position: absolute;
+    left: 870px;
+    top: 622px;
+}
+
+#result {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 20px;
+    color: #000;
+}
+
+#profile_name_text {
+    position: absolute;
+    left: 897px;
+    top: 439px;
+
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 16px;
+    color: #000;
+}
+
+#result {
+    position: absolute;
+    left: 897px;
+    top: 439px;
+
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 18px;
+    color: #000;
+}

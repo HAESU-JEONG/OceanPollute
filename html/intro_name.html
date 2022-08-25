@@ -7,14 +7,20 @@
         @import url('./../css/intro.css');
         @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
     </style>
+    <script src="./../js/input_name.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="nameBox">
-            <div class="profile_name_background"><img src="./../images/name_alert.png" width="620" height="350"></div>
+            <div class="profile_name_background"><img src="./../images/info_window.png" width="620" height="350"></div>
             <div class="profile_name_close_button"><a href="./../index.html"><img src="./../buttons/close_button.png" width="27" height="27"></a></div>
-            <div class="profile_name_input"><input type="text"></div>
-            <a href="#" class="confirm_button"><img src="./../buttons/ok_button.png" width="180" height="43"></a>
+            <form>
+                <p id="profile_name_text">이름을 입력해 주세요.</p>
+                <div class="profile_name_input"><input type="text" id="name" required></div>
+                <div class="profile_name_confirm"><input type="button" value="확인" onclick="name_event()"></div>
+                <p id="result"></p>
+                <!-- <p>님, 안녕하세요!</p> -->
+            </form>
         </div>
     </div>
 </body>
